@@ -1,4 +1,5 @@
 cmake_minimum_required(VERSION 3.1 FATAL_ERROR)
+
 # modify to your own nvcc path, or delete it if ok
 set(CMAKE_CUDA_COMPILER "/usr/local/cuda/bin/nvcc")
 project(add2 LANGUAGES CXX CUDA)
