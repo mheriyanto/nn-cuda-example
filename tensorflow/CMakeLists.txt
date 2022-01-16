@@ -24,7 +24,7 @@ set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} ${TF_CFLAGS} -D GOOGLE_CUDA=1")
 set(CMAKE_SHARED_LINKER_FLAGS "${CMAKE_SHARED_LINKER_FLAGS} ${TF_LFLAGS}")
 
 # modify to your own python path, or delete it if ok
-include_directories(/usr/include/python3.7)
+include_directories(/usr/include/python3.8)
 include_directories(../include)
 
 set(SRCS add2_ops.cpp ../kernel/add2_kernel.cu)
